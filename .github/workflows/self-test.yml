@@ -1,0 +1,15 @@
+name: Check dist/
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  self-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: EchelonFour/pr-parser@main
+      - run: echo $(SOMETHING_IN_THE_PR)
+      - run: echo $(SOMETHING_ELSE_IN_THE_PR)
+      - run: echo $(SOMETHING_JSON_IN_THE_PR)
