@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/EchelonFour/pr-parser/compare/v1.3.0...v1.3.1) (2023-01-17)
+
+
+### Bug Fixes
+
+* **deps:** Bump JSON5 to 2.2.3 to fix security issue ([40ae699](https://github.com/EchelonFour/pr-parser/commit/40ae699017601fa62a3d4b2fd4450546c4fd9fe6))
+
 ## [1.3.0](https://github.com/EchelonFour/pr-parser/compare/v1.2.0...v1.3.0) (2022-07-19)
 
 
